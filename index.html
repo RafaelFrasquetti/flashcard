@@ -3,40 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flashcards de Estudo</title>
+  <title>Flashcard</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Flashcards de Estudo</h1>
-    
-    <div class="flashcard-grid">
-      <!-- Card 1 -->
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="card-inner">
-          <div class="card-front">
-            <span class="category">Programação</span>
-            <p>O que é HTML?</p>
-          </div>
-          <div class="card-back">
-            <p>Linguagem de marcação para estruturar páginas web.</p>
-          </div>
+  <main class="container">
+    <article class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <p>Pergunta do Flashcard</p>
+        </div>
+        <div class="card-back">
+          <p>Resposta do Flashcard</p>
         </div>
       </div>
-
-      <!-- Card 2 -->
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="card-inner">
-          <div class="card-front">
-            <span class="category">Estilização</span>
-            <p>O que é CSS?</p>
-          </div>
-          <div class="card-back">
-            <p>Linguagem de estilos para definir o design de páginas web.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </article>
+  </main>
 </body>
 </html>
